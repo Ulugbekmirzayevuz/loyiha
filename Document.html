@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!-- saved from url=(0048)file:///C:/Users/AXiS/Desktop/behruz/indeks.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="color: rgb(235, 16, 9);">Salom, Dunyo!</h1>
+    <style>
+    h1 {
+        color: blue; /* Property:colo, Value: blue */
+    }
+    body{
+        background-color: #e5ebe4; /* Fon rangi */
+        background-image: url('image.jpg'); /* Fon rasmi */
+    }
+    .nav { /* class selektor */
+        background-color: rgb(255, 255, 255);
+    }
+    #header { /* id selektor */
+        text-align: center;
+    }
+    </style>
+    <div class="box"> salom</div>
+    <div id="unique-box"></div>
+    <style>
+    p {
+        text-align: justify;
+        text-decoration: line-through;
+    }
+    .container {
+        width: 80%; /* Foiz */
+        height: 50vh; /* viewport height */
+    }
+    .box {
+        padding: 20px; /* Ichki bo'shliq */
+        margin: 10px; /* Tashqi bo'shliq */
+        border: 1px solid black; /* CHiziq */
+    }
+
+    .background{
+        background-color: blue; /* Fon rang */
+        background-image: url('bg.jpg'); /* Fon rasmi */
+    }
+
+    .element {
+        display: flex; /* Elementlat joylashuvi */
+    }
+
+    @media (max-width: 600px){
+        body {
+            background-color: lightblue; /* Kichik ekranlar uchun fon rangi */
+        }
+    }
+    .container {
+        display: grid;
+        grid-template-columns: repeat(3,lfr); /* 3 ustun */
+        grid-gap: 10px; /* Ustunlar orasidagi bo'shliq */
+    }
+    .hidden {
+        overflow: hidden; /* O'chirish */
+        opacity: 0.5; /* Yarim shafof */
+    }
+    .box {
+        transition: background-color 0.5s ease;/* Otish */
+    }
+    .box:hover {
+        background-color: blueviolet; /* Hover paytida rangi o'zgartirish */    
+    }
+    @keyframes move {
+        from { transform: translateX(0); }
+        to {transform: translateX(100px); }
+    }
+    .animate {
+        animation: move 3s infinite; /* Animatsiya */
+    }
+</style>
+
+</body></html>

@@ -1,0 +1,33 @@
+p {
+    color:blue;
+    font-size:16px;
+}
+h1{
+    color:green;
+}
+h1{
+    color: #00ff00; /*Yashil rang*/
+}
+h1{
+    color:rgb(o, 255, 0); /*Yashil rang*/
+}
+h1{
+    color:rgba(0, 255, 0, 0.5);/*Yarim shaffof yashil rang*/
+}
+h1{
+    color:hsl(120, 100%, 50%);/*Yashil rang*/
+}
+h1 {
+    color:hsla(120, 100%, 50%);/*Yarim shaffof yashil rang*/
+}
+body{
+    background-color:lightblue;
+}
+body{
+    background-image:url('rasm.jpg');
+
+}
+body{
+    background-size:cover;
+    background-position:center;
+}

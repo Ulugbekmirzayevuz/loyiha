@@ -1,0 +1,41 @@
+p{
+    color:rgb(255, 0, 208);
+}
+.highlight{
+    background-color:rgb(0, 255, 106);
+}
+#header{
+    font-size:24px
+}
+* {
+  margin:0;
+  padding:0;
+}
+input[type="text"] {
+    border:1px solid rgb(55, 0, 255);
+}
+h1{
+    text-shadow:2px 2px 5px gray;
+}
+p{
+    text-align:center;
+}
+a{
+    text-decoration:none;
+}
+h2{
+    text-transform:uppercase;
+}
+p{
+    letter-spacing:2px;
+    word-spacing:5px;
+}
+
+
+
+
+
+
+
+
+
